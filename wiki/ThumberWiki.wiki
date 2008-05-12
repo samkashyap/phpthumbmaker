@@ -5,7 +5,7 @@
 
 To generate a thumbnail image, simply generate an URL like this:
 
-{{{http://localhost/thumber.php?img=assets/abc.png&h=200}}}
+{{{http://yourserver.org/thumber.php?img=assets/abc.png&h=200}}}
 
 Thumber has three parameters:
 
