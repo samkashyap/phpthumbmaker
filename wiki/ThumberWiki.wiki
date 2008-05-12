@@ -1,9 +1,13 @@
 #Thumber is small and simple to use PHP 5 class that automatically generates thumbnails of any size from PNGs, JPEGs, and GIFs.
 
 
+= How to install =
+
+Download
+
 = Usage =
 
-To generate a thumbnail image, simply generate an URL like this:
+To generate a thumbnail image, simply type an URL like this into your browser:
 
 {{{http://yourserver.org/thumber.php?img=assets/abc.png&h=200}}}
 
