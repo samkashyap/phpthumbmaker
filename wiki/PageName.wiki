@@ -17,7 +17,9 @@ You can either specify the width, the height, or both. If you omit one value, th
 
 = Caching =
 
-Thumber caches each thumbnail in a directory. The deafult path is ./thumbs/', but you might change it in the code:
+Thumber caches each thumbnail in a directory.
+
+The default path is ./thumbs/', but you might change it in the code:
 
 {{{define('PATH_TO_THUMBS', './thumbs/');}}}
 
