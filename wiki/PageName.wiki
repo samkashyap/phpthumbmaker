@@ -1,0 +1,23 @@
+#Thumber is little PHP class that automatically generates thumbails of any size out of PNGs, JPEGs, and GIFs.
+
+
+= Usage =
+
+I order to use Thumber, you must provide two things:
+
+- a directory with the original images
+
+- a directory where Thumber can store the thumbnail images. The default path is ./thumbs, but you might change this in the code  => define('PATH_TO_THUMBS', './thumbs/'); . Of course, this directory has to writeable.
+
+To generate a thumbnail image, simply generate an URL like this:
+
+http://localhost/thumber.php?img=assets/375127836_24ef15f878_o.png&h=199
+
+Thumber has three parameters:
+
+img: the path yo the original image
+w: the desired width of the thumbnail
+h: the desired height of the thumbnail
+
+you can either specify the width, the height, or both. If you omit one value, the other one will automatically be calculated (this is the way to go in most cases, otherwise one easily ends up with distorted thumbnails...). In future releases a 'fit tumbnail into a box' mode is planned - there are fragments of it in the code, but it's not yet functional.
+
