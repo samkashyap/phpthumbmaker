@@ -17,4 +17,10 @@ You can either specify the width, the height, or both. If you omit one value, th
 
 = Caching =
 
-Thumber caches each thumbnail
+Thumber caches each thumbnail in a directory
+
+{{{define('PATH_TO_THUMBS', './thumbs/');}}}
+
+that needs to be writeable, of course.
+
+
