@@ -3,7 +3,11 @@
 
 = How to install =
 
-Download
+Download the latest version [http://code.google.com/p/phpthumbmaker/downloads/list here].
+
+Upload to your web server (PHP 5 needed).
+
+Create a directory for the thumbnails cache (see below).
 
 = Usage =
 
