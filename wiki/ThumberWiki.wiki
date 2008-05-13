@@ -13,7 +13,7 @@ Create a directory for the thumbnails cache (see below).
 
 To generate a thumbnail image, simply type an URL like this into your browser:
 
-{{{http://yourserver.org/thumber.php?img=assets/abc.png&h=200}}}
+{{{http://yourserver.org/thumber.php?img=images/abc.png&h=200}}}
 
 Thumber has three parameters:
 
