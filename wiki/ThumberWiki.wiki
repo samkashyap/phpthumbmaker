@@ -29,7 +29,7 @@ Thumber stores each freshly created thumbnail image file in a directory. The def
 
 {{{define('PATH_TO_THUMBS', './thumbs/');}}}
 
-Of course, the direcory needs to be writeable.
+Of course, the directory needs to be writeable.
 
 The next time you call thumber.php, it will automagically serve the cached thumbnail, thus saving time.
 
