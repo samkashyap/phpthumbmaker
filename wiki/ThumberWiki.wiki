@@ -31,7 +31,7 @@ Thumber stores each freshly created thumbnail image file in a directory - the de
 
 Quite obviously, this directory needs to be writeable.
 
-The next time you call thumber.php, it will automagically serve the cached thumbnail, thus saving time.
+The next time you call (or anybody else calls) thumber.php, it will automagically serve the cached thumbnail, thus saving time.
 
 Once you replace the original image, you'll have to delete the cached thumbnail(s) manually, otherwise you'll be stuck with an old, wrong thumbnail - future releases might add a function to do so from within PHP.
 
