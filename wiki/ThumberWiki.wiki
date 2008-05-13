@@ -33,6 +33,6 @@ Quite obviously, the directory needs to be writeable.
 
 The next time you call thumber.php, it will automagically serve the cached thumbnail, thus saving time.
 
-If you replace the orginal image, you'll have to delete the cached thumbnail manually, otherwise you'll get stuck with an old, wrong thumbnail - future releases might add a function to do so from within PHP.
+If you replace the orginal image, you'll have to delete the cached thumbnail manually, otherwise you'll be stuck with an old, wrong thumbnail - future releases might add a function to do so from within PHP.
 
 Have fun!
