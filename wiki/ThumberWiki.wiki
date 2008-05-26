@@ -25,7 +25,7 @@ You can either specify the width (w), the height (w), or both. If you omit one v
 
 = Caching =
 
-Thumber stores each freshly created thumbnail image file in a directory - the default path to it is ./thumbs/', but you might change it easily within the code:
+Thumber stores each freshly created thumbnail image file in a directory - the default path to it is ./thumbs/', but you might easily change it within the code:
 
 {{{define('PATH_TO_THUMBS', './thumbs/');}}}
 
