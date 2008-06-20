@@ -21,7 +21,7 @@ Thumber has three parameters:
   * *w*: the desired width of the thumbnail image
   * *h*: the desired height of the thumbnail image
 
-You can either specify the width (w), the height (w), or both. If you omit one value, it will automatically be calculated (btw: this is the way to go in most cases, otherwise one easily ends up with distorted thumbnails...). For future releases a 'fit tumbnail into a box' mode is planned - there are fragments of it in the code, but it's not yet functional.
+You can either specify the width (w), the height (w), or both. If you omit one value, it will automatically be calculated (btw: this is the way to go in most cases, otherwise one easily ends up with distorted thumbnails :( ) ). For future releases a 'fit tumbnail into a box' mode is planned - there are fragments of it in the code, but it's not yet functional.
 
 = Caching =
 
