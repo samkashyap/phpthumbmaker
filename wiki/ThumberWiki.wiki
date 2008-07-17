@@ -1,7 +1,7 @@
 *Thumber* is a small and simple to use PHP 5 class that automatically generates thumbnails of any size from PNGs, JPEGs, and GIFs.
 
 
-= How to install =
+= How to install Thumber =
 
 Download the latest version [http://code.google.com/p/phpthumbmaker/downloads/list here].
 
