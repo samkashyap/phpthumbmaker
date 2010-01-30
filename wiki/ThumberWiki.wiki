@@ -38,11 +38,12 @@ The next time you call (or anybody else calls) thumber.php, it will automagicall
 = New in version 0.5 =
 
 - cleaned up code
+
 - much faster (no more bad re-directing, but rather streaming through the connection)
+
 - 'Area mode': add e.g. 'a=3000' to generate thumbnail that covers an area of 3000 pixels; this makes sense if you have a lot of images with different aspect ratios - it 'evens out' the visual impact.
+
 - slight sharpening (thumbnails are now about as 'sharp' as the input image)
 
 
 Have fun!
-
-
