@@ -20,6 +20,7 @@ Thumber has three parameters:
   * *img*: the path to the original image
   * *w*: the desired width of the thumbnail image
   * *h*: the desired height of the thumbnail image
+  * *h*: the desired area of the thumbnail image
 
 You can either specify the width (w), the height (h), or both. If you omit one value, it will automatically be calculated for you (btw: this is the way to go in most cases, otherwise one easily ends up with distorted thumbnails :-(  ). For future releases a 'fit thumbnail into a box' mode is planned - there are fragments of it in the code, but it's not yet functional.
 
@@ -33,7 +34,7 @@ Quite obviously, this directory needs to be writeable.
 
 The next time you call (or anybody else calls) thumber.php, it will automagically serve the cached thumbnail, saving precious computing time.
 
-*Note:* Once you've replaced the original image you'll have to manually delete the cached thumbnail(s) as well, otherwise you'll be stuck with an old, wrong thumbnail - future releases might add this functionality  from within PHP.
+*Note:* Once you've replaced an original image with another one of the same name, you'll have to manually delete the cached thumbnail as well, otherwise you'll be stuck with an old, wrong thumbnail - future releases might add this functionality from within PHP.
 
 = New in version 0.5 =
 
