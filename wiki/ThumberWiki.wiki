@@ -53,6 +53,8 @@ The next time you call (or anybody else calls) thumber.php, it will automagicall
 === Thumber in use ===
 
 http://www.marietaillefer.fr/
+http://www.myriamtirler.com/
+
 
 Have fun!
 
