@@ -15,7 +15,7 @@ To generate a thumbnail image, simply type an URL like this into your browser:
 
 {{{http://yourserver.org/thumber.php?img=images/abc.png&h=200}}}
 
-Thumber has three parameters:
+Thumber has four parameters:
 
   * *img*: the path to the original image
   * *w*: the desired width of the thumbnail image
