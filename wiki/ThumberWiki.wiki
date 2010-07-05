@@ -22,7 +22,11 @@ Thumber has four parameters:
   * *h*: the desired height of the thumbnail image
   * *a*: the desired area of the thumbnail image
 
-You can either specify the width (w), the height (h), or both. If you omit one value, it will automatically be calculated for you (btw: this is the way to go in most cases, otherwise one easily ends up with distorted thumbnails :-(  ). For future releases a 'fit thumbnail into a box' mode is planned - there are fragments of it in the code, but it's not yet functional.
+You can either specify the width (w), the height (h), or both. If you omit one value, it will automatically be calculated for you (btw: this is the way to go in most cases, otherwise one easily ends up with distorted thumbnails :-(  ).
+
+Alternatetively, you can specify the desired area of the thumbnail: use e.g. 'a=3000' to generate thumbnail that covers an area of 3000 pixels; this makes sense if you have a lot of images with different aspect ratios - it 'evens out' the visual impact.
+
+For future releases a 'fit thumbnail into a box' mode is planned.
 
 = Caching =
 
@@ -40,9 +44,9 @@ The next time you call (or anybody else calls) thumber.php, it will automagicall
 
 - cleaned up code
 
-- much faster (no more bad re-directing, but rather streaming through the connection)
+- much faster (no more bad re-directing, but swift streaming through the connection)
 
-- 'Area mode': add e.g. 'a=3000' to generate thumbnail that covers an area of 3000 pixels; this makes sense if you have a lot of images with different aspect ratios - it 'evens out' the visual impact.
+- 'area mode' added
 
 - added slight sharpening (thumbnails are now about as 'sharp' as the input image)
 
