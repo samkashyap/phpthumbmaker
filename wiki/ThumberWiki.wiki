@@ -44,7 +44,7 @@ The next time you call (or anybody else calls) thumber.php, it will automagicall
 
 - cleaned up code
 
-- much faster (no more bad re-directing, but swift streaming through the connection)
+- much faster caching (no more bad re-directing, but swift streaming through the connection)
 
 - 'area mode' added
 
