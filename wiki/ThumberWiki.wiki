@@ -24,7 +24,7 @@ Thumber has four parameters:
 
 You can either specify the width (w), the height (h), or both. If you omit one value, it will automatically be calculated for you (btw: this is the way to go in most cases, otherwise one easily ends up with distorted thumbnails :-(  ).
 
-Alternatetively, you can specify the desired area of the thumbnail: use e.g. 'a= 100000' to generate thumbnail that covers an area of 100000 pixels; this makes sense if you have a lot of images with different aspect ratios - it 'evens out' their visual impacts.
+Alternatetively, you can specify the desired area of the thumbnail: use e.g. 'a= 100000' to generate a thumbnail that covers an area of 100000 pixels; this makes sense if you have a lot of images with different aspect ratios - it 'evens out' their visual impacts.
 
 For future releases a 'fit thumbnail into a box' mode is planned.
 
