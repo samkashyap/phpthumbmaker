@@ -66,15 +66,17 @@ The next time you call (or anybody else calls) thumber.php, it will automagicall
 
 = To do =
 
-- cache purging through URL (GET parameter)
+- cache purging through GET parameter
 
-- add a JPEG quality (GET) parameter
+- define JPEG output quality through GET parameter
 
 - implement / finalize proper error handling
 
 - auto detect presence of an alpha channel in the image
 
-== Thumber in use ==
+- cropping (?)
+
+= Thumber in use =
 
 http://www.marietaillefer.fr/
 
