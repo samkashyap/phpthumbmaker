@@ -52,7 +52,7 @@ The next time you call (or anybody else calls) thumber.php, it will automagicall
 
 = New in version 0.5.6 =
 
-- forces the creation of a new thumbnail if the creation date of the cached one is older than the orginal’s modification date
+- forces the creation of a new thumbnail if the creation date of the cached one is older than the orginal’s modification date (sort of experimental - please report errors or simply comment it out)
 
 - added alpha channel support for PNGs and GIFs
 
@@ -72,7 +72,7 @@ The next time you call (or anybody else calls) thumber.php, it will automagicall
 
 - implement / finalize proper error handling
 
-- auto detect presence of an alpha channel in the image
+- auto detect the presence of an alpha channel in a PNG OR GIF image
 
 - cropping (?)
 
