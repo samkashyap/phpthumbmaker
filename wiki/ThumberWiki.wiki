@@ -38,7 +38,7 @@ Quite obviously, this directory needs to be writeable.
 
 The next time you call (or anybody else calls) thumber.php, it will automagically serve the cached thumbnail, saving precious computing time.
 
-*Note:* ~~Once you've replaced an original image with another one of the same name, you'll have to manually delete the cached thumbnail as well, otherwise you'll be stuck with an old, wrong thumbnail - future releases might add this functionality from within PHP. ~~ (see: 'New in version 0.5.6')
+*Note:* ~~Once you've replaced an original image with another one of the same name, you'll have to manually delete the cached thumbnail as well, otherwise you'll be stuck with an old, wrong thumbnail - future releases might add this functionality from within PHP. ~~  (see: 'New in version 0.5.6')
 
 = New in version 0.5.4 =
 
