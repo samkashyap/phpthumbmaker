@@ -58,7 +58,7 @@ The next time you call (or anybody else calls) thumber.php, it will automagicall
 
 - parameters 'w' and 'h' - if both set - define a 'box' into which the thumbnail fits; the output of distorted images is no longer possible
 
-- substituted an underscore with an 'x' in the thumbnail filename that makes more sense, e.g. 'example_160x257.png' instead of 'example_160_257.png'
+- substituted an underscore with an 'x' in the thumbnail filename for better readability, e.g. 'example_160x257.png' instead of 'example_160_257.png'
 
 - better error handling
 
