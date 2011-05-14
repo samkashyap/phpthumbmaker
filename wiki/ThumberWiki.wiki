@@ -68,7 +68,7 @@ The next time you call (or anybody else calls) thumber.php, it will automagicall
 
 - cache purging through GET parameter
 
-- define JPEG output quality through GET parameter
+- define JPEG output quality parameter through GET parameter
 
 - implement / finalize proper error handling
 
