@@ -56,7 +56,7 @@ The thumbnail images are aptly named: The calculated dimensions are added to the
 
 - forces the creation of a new thumbnail if the creation date of the cached one is older than the orginal’s modification date (sort of experimental - please report errors or simply comment it out)
 
-- added alpha channel support for PNGs and GIFs
+- added alpha channel support for PNGs and GIFs (no sharpening there because it creates ugly borders)
 
 - parameters 'w' and 'h' - if both set - define a 'box' into which the thumbnail fits; the output of distorted images is no longer possible
 
