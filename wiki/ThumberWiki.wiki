@@ -76,7 +76,7 @@ The thumbnail images are aptly named: The calculated dimensions are added to the
 
 - implement / finalize proper error handling
 
-- auto detect the presence of an alpha channel in a PNG OR GIF image
+- auto detect the presence of an alpha channel in PNG and GIF images
 
 - cropping (?)
 
