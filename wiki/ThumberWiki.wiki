@@ -17,10 +17,10 @@ To generate a thumbnail image, simply type a URL like this into your browser:
 
 Thumber has four parameters:
 
- - *img*: the path to the original image
+- *img*: the path to the original image
 - *w*: the desired width of the thumbnail image
- - *h*: the desired height of the thumbnail image
- - *a*: the desired area of the thumbnail image
+- *h*: the desired height of the thumbnail image
+- *a*: the desired area of the thumbnail image
 
 You can either specify the width (w), the height (h), or both. If you omit one value, it will automatically be calculated for you ~~(btw: this is the way to go in most cases, otherwise one easily ends up with distorted thumbnails :-(  )~~ (see: 'New in version 0.5.6' ).
 
