@@ -41,7 +41,7 @@ Quite obviously, this directory needs to be writeable.
 
 The next time you call (or anybody else calls) thumber.php, it will automagically serve the cached thumbnail, saving precious computing time.
 
-The thumbnail images are aptly named: The calculated dimensions are added to the original’s file name, e. g. if the original is named 'house.jpg', the thumbnail image will be named 'house_255x100.jpg', reflecting its size in pixels.
+The thumbnail images are aptly named: The calculated dimensions are added to the original’s file name, e. g. if the original is named 'house.jpg', the thumbnail image will be e.g. named 'house_255x100.jpg', reflecting its size in pixels.
 
 *Note:* ~~Once you've replaced an original image with another one of the same name, you'll have to manually delete the cached thumbnail as well, otherwise you'll be stuck with an old, wrong thumbnail - future releases might add this functionality from within PHP. ~~  (see: 'New in version 0.5.6')
 
