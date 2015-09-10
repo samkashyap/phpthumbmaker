@@ -1,0 +1,95 @@
+**Thumber** is a small and simple to use PHP 5 class that automatically generates thumbnails of any size from PNG, JPEG, and GIF images.
+
+
+# How to install and use Thumber #
+
+- Download the latest version [here](http://code.google.com/p/phpthumbmaker/downloads/list).
+
+- Upload it to your web server (PHP 5, GD library required).
+
+- Create a directory for the thumbnails cache (see below).
+
+# Usage #
+
+To generate a thumbnail image, simply type a URL like this into your browser:
+
+`http://yourserver.org/thumber.php?img=images/abc.png&h=200`
+
+Thumber has four parameters:
+
+- **img**: the path to the original image
+
+- **w**: the desired width of the thumbnail image
+
+- **h**: the desired height of the thumbnail image
+
+- **a**: the desired area of the thumbnail image
+
+You can either specify the width (w), the height (h), or both. If you omit one value, it will automatically be calculated for you ~~(btw: this is the way to go in most cases, otherwise one easily ends up with distorted thumbnails :-(  )~~ (see: 'New in version 0.5.6' ).
+
+Alternatetively, you can specify the desired area of the thumbnail: use e.g. 'a= 100000' to generate a thumbnail that covers an area of 100000 pixels (please note that the effective pixel amount of the created thumbnail is an approximation, depending on the original’s dimensions); this makes sense if you have a lot of images with different aspect ratios - it 'evens out' their visual impacts.
+
+~~For future releases a 'fit thumbnail into a box' mode is planned.~~ (see: 'New in version 0.5.6')
+
+# Caching #
+
+Thumber stores each freshly created thumbnail image file in a directory - the default path to it being ./thumbs/', but you can easily change it within the code:
+
+`define('PATH_TO_THUMBS', './thumbs/');`
+
+Quite obviously, this directory needs to be writeable.
+
+The next time you call (or anybody else calls) thumber.php, it will automagically serve the cached thumbnail, saving precious computing time.
+
+The thumbnail images are aptly named: The calculated dimensions are added to the original’s file name, e. g. if the original is named 'house.jpg', the thumbnail image will be e.g. named 'house\_255x100.jpg', reflecting its size in pixels.
+
+**Note:** ~~Once you've replaced an original image with another one of the same name, you'll have to manually delete the cached thumbnail as well, otherwise you'll be stuck with an old, wrong thumbnail - future releases might add this functionality from within PHP.~~  (see: 'New in version 0.5.6')
+
+# New in version 0.5.4 #
+
+- cleaned up code
+
+- much faster caching (no more bad re-directing, but swift streaming through the connection)
+
+- 'area mode' added
+
+- added slight sharpening (thumbnails now appear about as 'sharp' as the input image)
+
+# New in version 0.5.6 #
+
+- forces the creation of a new thumbnail if the creation date of the cached one is older than the orginal’s modification date (sort of experimental - please report errors or simply comment it out)
+
+- added alpha channel support for PNGs and GIFs (no sharpening there because it creates ugly borders)
+
+- parameters 'w' and 'h' - if both set - define a 'box' into which the thumbnail fits; the output of distorted images is no longer possible
+
+- substituted an underscore with an 'x' in the thumbnail filename for better readability, e.g. 'example\_160x257.png' instead of 'example\_160\_257.png'
+
+- better error handling
+
+- cleaned up the code, improved comments
+
+# To do #
+
+- path to thumbnail cache directory selectable through  GET parameter
+
+- cache directory purging through GET parameter
+
+- define JPEG output quality parameter through GET parameter
+
+- implement / finalize proper error handling
+
+- auto detect the presence of an alpha channel in PNG and GIF images
+
+- cropping (?)
+
+# Thumber in use #
+
+http://www.marietaillefer.fr/
+
+http://www.myriamtirler.com/
+
+
+Have fun!
+
+Peter Chylewski
